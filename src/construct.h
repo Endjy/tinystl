@@ -1,0 +1,4 @@
+#ifndef TINYSTL_CONSTRUCT_H
+#define TINYSTL_CONSTRUCT_H
+
+#endif

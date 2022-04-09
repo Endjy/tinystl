@@ -1,0 +1,4 @@
+#ifndef TINYSTL_ALGOBASE_H_
+#define TINYSTL_ALGOBASE_H_
+
+#endif
