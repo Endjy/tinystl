@@ -34,7 +34,7 @@ namespace TinySTL{
             return ((bytes + EAlign::ALIGN - 1) & ~(EAlign::ALIGN - 1));
         }
 
-        // choose the number of block, start from n;
+        // return the index of block, start from n;
         static size_t FREELIST_INDEX(size_t bytes){
             return ((bytes + EAlign::ALIGN - 1) / EAlign::ALIGN - 1);
         }

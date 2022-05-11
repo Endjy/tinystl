@@ -1,7 +1,7 @@
 #ifndef _ALLOCATOR_H_
 #define _ALLOCATOR_H_
 
-#include "Alloc.h"
+#include "alloc.h"
 #include "construct.h"
 
 #include <new>
@@ -44,7 +44,7 @@ namespace TinySTL{
 
     template<class T>
     void allocator<T>::deallocate(T *ptr){
-        alloc::deallocator(static_cast<void *>(ptr), sizeof(T));
+        alloc::deallocate(static_cast<void *>(ptr), sizeof(T));
     }
 
     template<class T>
